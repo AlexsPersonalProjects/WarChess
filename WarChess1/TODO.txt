@@ -1,0 +1,7 @@
+﻿For code cleanup:
+	Create lists and iterate with for each instead of doing select statements
+
+Implementations:
+	Unit movement
+	combat
+	networking
