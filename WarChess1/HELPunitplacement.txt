@@ -1,0 +1,4 @@
+﻿This is a help file for unit selection. Ignore this line.
+To start, make sure the correct player is selected, and select which type of unit you would like to place. 
+The board should highlight where you can place said unit. 
+If need be, the test button will swap players if one player has more units.

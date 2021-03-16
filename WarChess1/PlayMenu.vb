@@ -105,9 +105,6 @@ Public Class PlayMenu
 
     Private Sub btnTest_Click(sender As Object, e As EventArgs) Handles btnTest.Click
         UpdateWhomstPlayer()
-        For Each button In pnlGameBoard.Controls
-            RichTextBox1.Text += button.name & ".click, "
-        Next
     End Sub
 
     Private Sub btnAddInf_Click(sender As Object, e As EventArgs) Handles btnAddInf.Click
@@ -296,4 +293,18 @@ Public Class PlayMenu
 
     End Sub
 
+    Private Sub btnHelp1_Click(sender As Object, e As EventArgs) Handles btnHelp1.Click
+        Dim strFileReader As String
+        strFileReader = My.Computer.FileSystem.ReadAllText("..\..\HELPunitselection.txt")
+        Dim arrHelpMessage = strFileReader.Split(vbCrLf)
+        Dim i = 0
+        Dim strHelpMessage As String
+        For Each item In arrHelpMessage
+            If i > 0 Then
+                strHelpMessage += item
+            End If
+            i += 1
+        Next
+        MsgBox(strHelpMessage)
+    End Sub
 End Class

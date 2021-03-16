@@ -1,0 +1,5 @@
+﻿This is the help file for the initial PlayMenu and selecting units. Ignore this line
+To start, Look at which player is currently picking a unit. 
+Have that player select which unit they would like to select, and then the next player goes.
+This will go until both teams are out of money.
+When you are done, select the done button and the game board will pop up and you may begin unit placement.
