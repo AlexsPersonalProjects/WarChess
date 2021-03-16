@@ -105,7 +105,6 @@ Partial Class PlayMenu
         Me.btnPlaceCav = New System.Windows.Forms.Button()
         Me.btnPlaceInf = New System.Windows.Forms.Button()
         Me.btnPlay = New System.Windows.Forms.Button()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.pnlGameBoard.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -1112,21 +1111,12 @@ Partial Class PlayMenu
         Me.btnPlay.UseVisualStyleBackColor = True
         Me.btnPlay.Visible = False
         '
-        'RichTextBox1
-        '
-        Me.RichTextBox1.Location = New System.Drawing.Point(381, 245)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(277, 303)
-        Me.RichTextBox1.TabIndex = 86
-        Me.RichTextBox1.Text = ""
-        '
         'PlayMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.ClientSize = New System.Drawing.Size(1508, 900)
-        Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.btnPlay)
         Me.Controls.Add(Me.btnPlaceArc)
         Me.Controls.Add(Me.btnPlaceCav)
@@ -1237,5 +1227,4 @@ Partial Class PlayMenu
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents btnPlay As Button
-    Friend WithEvents RichTextBox1 As RichTextBox
 End Class

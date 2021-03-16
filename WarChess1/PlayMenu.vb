@@ -105,9 +105,6 @@ Public Class PlayMenu
 
     Private Sub btnTest_Click(sender As Object, e As EventArgs) Handles btnTest.Click
         UpdateWhomstPlayer()
-        For Each button In pnlGameBoard.Controls
-            RichTextBox1.Text += button.name & ".click, "
-        Next
     End Sub
 
     Private Sub btnAddInf_Click(sender As Object, e As EventArgs) Handles btnAddInf.Click
