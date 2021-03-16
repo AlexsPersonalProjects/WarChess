@@ -2,6 +2,7 @@
     Public hostOrClient As Boolean  'Boolean to determine if user is hosting game or joining game
     Public serverPort As Integer    'Integer of what port to look for. Defaults to 1000
     Public joinIP As String         'String with IP to join. Defaults to 127.0.0.1 (localhost)
+    Public Const VERSION = "v1.01a"
     Public Const PLAYER1 = "Player 1"
     Public Const PLAYER2 = "Player 2"
     Public Const PREGAME = "p"

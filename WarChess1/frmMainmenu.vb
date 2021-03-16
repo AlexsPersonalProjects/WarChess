@@ -40,4 +40,8 @@ Public Class frmMainMenu
         End If
 
     End Sub
+
+    Private Sub frmMainMenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        lblVersion.Text = VERSION
+    End Sub
 End Class
